@@ -20,11 +20,9 @@ export const RadioGroup = (props: RadioGroupProps) => {
 	return (
 		<div className={styles.container}>
 			{title && (
-				<>
-					<Text weight={800} size={12} uppercase>
-						{title}
-					</Text>
-				</>
+				<Text weight={800} size={12} uppercase>
+					{title}
+				</Text>
 			)}
 			<div className={styles.group}>
 				{options.map((option) => (

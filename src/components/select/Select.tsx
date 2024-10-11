@@ -49,11 +49,9 @@ export const Select = (props: SelectProps) => {
 	return (
 		<div className={styles.container}>
 			{title && (
-				<>
-					<Text size={12} weight={800} uppercase>
-						{title}
-					</Text>
-				</>
+				<Text size={12} weight={800} uppercase>
+					{title}
+				</Text>
 			)}
 			<div
 				className={styles.selectWrapper}

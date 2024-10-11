@@ -43,6 +43,16 @@
 	background: var(--gold, #ffc802);
 }
 
+.label:hover,
+.item[data-checked='false'] .label:hover {
+	background: var(--light-gold, #ffedab);
+}
+
+.label:hover,
+.item[data-checked='false'] .label:active {
+	background: var(--gold, #ffc802);
+}
+
 .item[data-checked='true'] .label {
 	background: var(--gold, #ffc802);
 }
