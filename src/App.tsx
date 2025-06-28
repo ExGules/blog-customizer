@@ -37,11 +37,11 @@ const projects: Project[] = [
 	},
 	{
 		id: 3,
-		title: "Stellar Burgers",
-		description: "Приложение для заказа бургеров с тестированием и деплоем",
-		technologies: ["React", "TypeScript", "Redux", "Тестирование"],
-		link: "#",
-		github: "https://github.com/ExGules"
+		title: "Blog Customizer (Портфолио)",
+		description: "Современное одностраничное портфолио с интерактивными диаграммами навыков, анимациями, темной/светлой темой и адаптивным дизайном. Реализованы: круговые и радарные диаграммы, секции обо мне, навыки, достижения, проекты, контакты. Автоматический деплой на GitHub Pages.",
+		technologies: ["React", "TypeScript", "SCSS", "Webpack", "GitHub Actions"],
+		link: "https://exgules.github.io/blog-customizer/",
+		github: "https://github.com/ExGules/blog-customizer"
 	}
 ];
 
